@@ -1,0 +1,15 @@
+# data lives outside the repo (C:\KaggleData\rogii) — never commit competition data
+*.csv
+!sample_submission_format.csv
+artifacts/
+*.parquet
+submission.csv
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.code-review-graph/
+
+# training telemetry / tool output
+catboost_info/
